@@ -21,7 +21,7 @@ In Project 1, I aimed to use the data of the migration of the City of Vancouver 
    •	Data Publishing
 
 
-Methodology 
+# Methodology 
 
 Data Analytical Question Formulation 
 
@@ -39,7 +39,7 @@ Below is the data utilized for the project1.
 ![image](https://github.com/user-attachments/assets/db2275d2-715d-4c32-914c-ce7769097491)
 
 
-Data Storage Design 
+# Data Storage Design 
 
 Safe data storage was achieved by using Amazon S3, where data was classified into three stages: Landing, Raw, and Curated. 
 
@@ -52,7 +52,7 @@ Safe data storage was achieved by using Amazon S3, where data was classified int
   •	Data cleaning using AWS Glue DataBrew 
 
 
-Data Pipeline Design 
+# Data Pipeline Design 
 
 For Data processing  Draw.io is being used.
 
@@ -61,7 +61,7 @@ For Data processing  Draw.io is being used.
 ![image](https://github.com/user-attachments/assets/c8f15782-77b3-41da-9c92-63e8b7e68f9c)
 
 
-Data Analysis 
+# Data Analysis 
 
 Executed utilizing AWS Athena for querying and providing valuable information.
 
@@ -78,7 +78,7 @@ Executed utilizing AWS Athena for querying and providing valuable information.
 
 
 
-Data Pipeline Implementation
+# Data Pipeline Implementation
 
 
   •	Utilized AWS Glue for Extended Transaction Lifetime (ETL) operations.
@@ -102,7 +102,7 @@ Derived Column: The matrix is computed at this step by executing the SQL functio
 
 ![image](https://github.com/user-attachments/assets/1022cd1e-0baf-42f1-b140-df65dedcec22)
 
-Data Analysis 
+# Data Analysis 
 
   •	The data analysis was conducted utilizing AWS Athena architecture. 
   
@@ -113,7 +113,7 @@ Below is the data derived from the database of  AWS Athena:
 ![image](https://github.com/user-attachments/assets/fd126d31-9e87-4167-b612-d5ae68a14f29)
 
 
-Result 
+# Result 
 
   •	Amazon EC2 was used to establish a General Server and Web Server for both internal and external data access.
   
@@ -121,7 +121,7 @@ Result
 
 ![image](https://github.com/user-attachments/assets/a1708f30-8488-4c7d-ac8b-a97ed3288a50)
 
-Insights and Findings 3
+# Insights and Findings 3
 
 In 2022, the 'Awarded contract' for the City of Vancouver achieved a call handling rate of 285, therefore demonstrating a commendable level of efficiency in award management. 
 The proportion of calls managed decreased somewhat to 285.
@@ -131,7 +131,7 @@ This decreases, however insignificant, suggests a little deterioration in the ef
 Between 2022 and 2023, there is a significant decline in the proportion of awarded contracts effectively managed. This may be attributed to many things, including a surge in bid category or difficulties in allocating resources.
 
 
-Costing 
+# Costing 
 
 For Team Assignment 1 our detailed team assignment costing is mentioned below as per the AWS services used by every team member:
 
@@ -145,7 +145,7 @@ For Team Assignment 1 our detailed team assignment costing is mentioned below as
 
   •	EC2: Total yearly cost of $225.96 for hosting general and web servers.
 
-Conclusion
+# Conclusion
 This study demonstrates the efficacy of using AWS cloud services for extensive data analytics and emphasizes the potential to automate data processes and obtain valuable insights for urban administration.
 
 
@@ -167,14 +167,15 @@ The process for the consideration of surveys is administered by the Survey Manag
 
 •	Data Visualisation
 
-•	Data Publishing
+•	Data Publishing.
 
-Data Analytical Question Formulation (Methodology)
+
+# Data Analytical Question Formulation (Methodology)
 
 This policy and associated procedure outline the coordinated approach to the administration of surveys with the goal of maximizing their usefulness
 
 
-Dataset Discovery
+# Dataset Discovery
 
 The sample dataset includes three Excel files for the years 2022, 2023 & 2024
 
@@ -185,11 +186,11 @@ The sample dataset includes three Excel files for the years 2022, 2023 & 2024
 •	Sample completed survey
 
 
-Data Pipeline Design
+# Data Pipeline Design
 •	For Data processing  Draw.io is being used.
 
 
-AWS Services
+# AWS Services
 •	For Data Storage Amazon S3.
 •	For Data Cleaning and Structuring AWS GlueData Brew.
 •	For Data Pipeline structure AWS Glue.
@@ -210,7 +211,7 @@ Data Cleaning and Structuring includes some different types of operations for di
 ![image](https://github.com/user-attachments/assets/57ecf86c-4413-4a29-9e19-527eac3901f6)
 
 
-Data Pipeline Implementation:
+# Data Pipeline Implementation:
 
 •	Implemented using AWS Glue for ETL processes.
 
@@ -219,12 +220,12 @@ Data Pipeline Implementation:
 
 ![image](https://github.com/user-attachments/assets/98452711-5038-4db5-a799-23133c2a4d9f)
 
-Outcome
+# Outcome
 
 They ETL  diagram illustrating the calculation of metrics derived by ETL Glue.
 
 
-Insights and Findings
+# Insights and Findings
 
 •	Survey Success rate for the year 2024:
 
@@ -263,7 +264,7 @@ o	2024: 70% (20%  increase from 2023)
 •	The observed pattern underscores possible areas of worry in the survey success rate that UCW should consider resolving.
 
 
-Conclusion
+# Conclusion
 
 •	The project efficiently utilizes AWS Glue DataBrew for data cleansing and transformation, and the ETL pipeline is successfully implemented to compute the graduation rate of students.
 
